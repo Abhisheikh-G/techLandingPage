@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
+
+html {
+  font-family: "Crimson Text", serif;
+}
+
+.primary-overlay {
+  background: rgba(112, 81, 176, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+
+.main-header-inner {
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.main-header-inner .showcase {
+  padding-top: 2.5rem;
+}
+
+.main-header .showcase {
+  padding-top: 5rem;
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+.slide-in {
+  transition: all 0.5s ease-in;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.flex .divider.deep-purple {
+  width: 5rem;
+}
+
+.section-developers {
+  position: relative;
+  background: url("../img/code.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 180px;
+}
+
+.section-podcast {
+  position: relative;
+  background: url("../img/circuit.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 180px;
+  margin-top: 30px;
+}
+
+.section-podcast a {
+  margin-bottom: 10px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(123, 81, 176, 0.9);
+}
+
+.carousel.carousel-slider .carousel-item p {
+  font-size: 1.75rem;
+}
+
+#login-modal {
+  width: 400px;
+}
+
+.tabs .indicator {
+  background-color: #6a1b9a !important;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+
+nav {
+  transition: all 1s ease-in;
+}
+
+.gradient {
+  background: linear-gradient();
+}
+
+@media (max-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+}
